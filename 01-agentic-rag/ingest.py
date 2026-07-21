@@ -1,5 +1,6 @@
 import requests
 from minsearch import Index
+from sqlitesearch import TextSearchIndex
 
 
 def load_faq_data():
