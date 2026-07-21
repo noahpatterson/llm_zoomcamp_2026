@@ -1,0 +1,9 @@
+import requests
+
+docs_url = 'https://datatalks.club/faq/json/courses.json'
+try:
+    response = requests.get(docs_url)
+    courses_raw = response.json()
+    print(courses_raw)
+except Exception as e:
+    print(f'Error: {e}')

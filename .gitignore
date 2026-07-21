@@ -216,3 +216,12 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+prompts/
+
+.venv
+.env
+faq.db*
+*.db
+
+.DS_Store
