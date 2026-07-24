@@ -225,3 +225,4 @@ faq.db*
 *.db
 
 .DS_Store
+models/
