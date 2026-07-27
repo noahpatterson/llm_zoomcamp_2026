@@ -11,11 +11,14 @@ dependencies = [
     "numpy>=2.4.6",
     "onnxruntime>=1.27.0",
     "openai>=2.44.0",
+    "pandas>=3.0.5",
     "psycopg[binary]>=3.3.4",
+    "pydantic>=2.13.4",
     "python-dotenv>=1.2.2",
     "requests>=2.34.2",
     "sentence-transformers>=5.6.0",
     "sqlitesearch>=0.3.0",
+    "streamlit>=1.60.0",
     "tokenizers>=0.22.2",
     "toyaikit>=0.0.11",
     "tqdm>=4.69.0",
@@ -25,4 +28,9 @@ dependencies = [
 dev = [
     "huggingface-hub>=1.24.0",
     "jupyter>=1.1.1",
+]
+
+[tool.uv.workspace]
+members = [
+    "llm-zoomcamp-hw5",
 ]
